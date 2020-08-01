@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jonathandevcr/module2-techground/issues"
   },
-  "homepage": "https://github.com/jonathandevcr/module2-techground#readme"
+  "homepage": "https://github.com/jonathandevcr/module2-techground#readme",
+  "devDependencies": {
+    "@wdio/cli": "^6.3.6"
+  }
 }
