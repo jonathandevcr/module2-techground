@@ -10,6 +10,8 @@ class LoginPage extends Page {
     get inputEmail () { return $('input[type="email"]') }
     get inputPassword () { return $('input[type="Password"]') }
     get btnSubmit () { return $('button[type="Sign in"]') }
+    get btnButton () { return $('//html/body/div/div/div/div/div/div/form/fieldset/button') }
+
 
     /**
      * a method to encapsule automation code to interact with the page
@@ -18,7 +20,12 @@ class LoginPage extends Page {
     login (username, password) {
         this.inputEmail.setValue(username);
         this.inputPassword.setValue(password);
-        this.btnSubmit.click(); 
+      
+    }
+
+    ToClick (){
+
+        this.btnButton.click();
     }
 
     /**

@@ -1,8 +1,5 @@
-/**
 const Page = require('./page');
 
- * sub page containing specific selectors and methods for a specific page
- */
 class navigationPage extends Page {
     /**
      * define selectors using getter methods
@@ -13,7 +10,7 @@ class navigationPage extends Page {
 
     goToSignIn(){
 
-        return this.signInLink().click();
+        return this.signInLink.click();
     }     
 
     getConduitText(){
