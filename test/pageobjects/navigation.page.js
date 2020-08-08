@@ -7,6 +7,7 @@ class navigationPage extends Page {
     get condiutLabel () { return $('a.navbar-brand.ng-binding') }
     get signInLink () { return $('a=Sign in') }
     get signUpLink () { return $('*=up') }
+    
 
     goToSignIn(){
 

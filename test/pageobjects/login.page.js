@@ -19,8 +19,7 @@ class LoginPage extends Page {
      */
     login (username, password) {
         this.inputEmail.setValue(username);
-        this.inputPassword.setValue(password);
-      
+        this.inputPassword.setValue(password);      
     }
 
     ToClick (){
