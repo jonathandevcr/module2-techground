@@ -21,6 +21,12 @@ describe('My Login application', () => {
 
         dashboardPage.getGlobalFeedTap().click();
         expect(dashboardPage.getGlobalFeedTap()).toHaveClass('active', {message: 'Not active tap!',})
+        // expect(DashboardPage.getGlobalFeedTap()).toHaveAttribute('class', 'nav-link active');
+         expect(dashboardPage.getGlobalFeedTap()).toHaveClass('active', { message: 'Not active tap!', })
+        //  expect(DashboardPage.getGlobalFeedTap()).toHaveProperty('class', 'nav-link active');
+        expect(dashboardPage.getGlobalFeedTap()).toBeClickable();
+        // expect(DashboardPage.getGlobalFeedTap()).toBeSelected();
+    
     });
 
 });
